@@ -63,7 +63,7 @@ namespace ObjectsWithMovementLibrary
             }
         }
 
-        public static void MoveGeometricalObjecstOnY(IGeometricalShape[] shapes, int distance)
+        public static void MoveGeometricalObjectsOnY(IGeometricalShape[] shapes, int distance)
         {
             if (shapes is null)
             {

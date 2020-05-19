@@ -36,7 +36,7 @@ namespace ObjectsWithMovementLibrary
 
         public void PrintCoordinates()
         {
-            GeometricalObjectExtremities.PrintCoordinatesToConsole();
+            GeometricalObjectExtremities.PrintCoordinatesToConsole(GeometricalObjectType.Line);
         }
     }
 }
